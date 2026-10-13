@@ -1,23 +1,38 @@
-# The Studio Caption Editor
+# The Studio Captions
 
-Open it here: **https://rahulwala10.github.io/The-Studio---Transcription-and-Typology-repository/**
+**Dynamic captions for Reels, by Rahul Wala.**
 
-A customised copy of [tscaps](https://github.com/francozanardi/tscaps), the
-free, open-source caption editor by Franco Zanardi, set up for The Studio's
-Instagram Reels. Everything runs in the browser: videos and caption plans are
-never uploaded anywhere.
+Open it: **https://rahulwala10.github.io/The-Studio---Transcription-and-Typology-repository/**
 
-What this copy adds:
+Drop in a video and The Studio Captions writes the captions from your voice,
+right in your browser. It picks the words worth lifting by itself, and styles
+them with one of 27 mixed-font templates: a bold sans with an elegant italic
+serif, heavy capitals with a brush script, a thin weight with a black one, and
+more, each with colour presets. Every word, line and colour stays editable,
+and the finished Reel exports as an MP4. Your videos never leave your device.
 
-- Importing Claude's caption plans (`.tscaps` files with words, timings, the
-  stand-out words and the templates to use) as ready-styled projects.
-- House templates: Mumbai, Dadar, Worli, Leicester and Belfast for subtitles;
-  Bandra, Colaba and Juhu for hooks.
-- Extra fonts: Instrument Serif, Great Vibes, Yellowtail, Mrs Saint Delafield,
-  Kaushan Script, Abril Fatface, Archivo Black.
+## What's inside
 
-This repository holds the built site. The full source of these changes is in
-`source/tscaps-studio-source.zip`.
+- **27 house templates** with font pairings and colour palettes, from everyday
+  talking Reels to luxury, comedy, teaching and night footage.
+- **Automatic stand-out words.** The punch word of each phrase, names and
+  numbers are picked offline, right after transcription, and can be changed
+  word by word.
+- **Captions that read naturally.** They are cut at sentence ends, commas and
+  pauses, never straight after "a", "the" or "to", and split evenly instead
+  of leaving one word alone.
+- **Captions that keep time with the voice.** A small timing lead makes each
+  word light up as it is said.
+- **Free and private.** Transcription (Whisper) and export both run in the
+  browser.
 
-Licences: the tscaps editor app is AGPL-3.0 (`LICENSE-editor-AGPL-3.0.txt`);
-the engine and templates are MIT (`LICENSE-engine-MIT.txt`).
+## Inspired by tscaps
+
+The Studio Captions is built on [tscaps](https://github.com/francozanardi/tscaps),
+the open-source caption editor by Franco Zanardi. Its engine and templates are
+MIT-licensed (`LICENSE-engine-MIT.txt`), and its editor app is AGPL-3.0
+(`LICENSE-editor-AGPL-3.0.txt`). As the AGPL asks, the full source of this
+version is here, in `source/the-studio-captions-source.zip`.
+
+This repository holds the built site that GitHub Pages serves, plus the
+source and the Windows laptop package for each release under `releases/`.
