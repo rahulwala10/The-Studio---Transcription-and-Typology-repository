@@ -29,6 +29,18 @@ finished Reel exports as an MP4. Your videos never leave your device.
 - **Captions that keep time with the voice.** A small timing lead makes each
   word light up as it is said.
 - **A Reels safe-zone guide** in the editor that shades what Instagram covers.
+- **Hindi and Hinglish to English.** Speak Hindi or Hinglish and get English
+  captions, timed to your voice (Whisper's own speech translation).
+- **Apply to all and your own templates.** Change one caption and apply it to
+  every caption, then save the whole look, motion included, as your own
+  template that new projects start with.
+- **Best-quality export.** About 30 Mbps at 1080p by default, and a video
+  smaller than 1080 × 1920 is exported at Instagram size so the captions stay
+  sharp.
+- **Apply to all and your own templates.** Use a change on one caption
+  everywhere, and save any look as a template of your own.
+- **Speak Hindi or Hinglish, get English captions** timed to your voice.
+- **Best-quality export** (about 30 Mbps at 1080p), at Instagram size.
 - **Free and private.** Transcription (Whisper) and export both run in the
   browser.
 
@@ -36,6 +48,12 @@ finished Reel exports as an MP4. Your videos never leave your device.
 
 Each release has a Windows package for the laptop under `releases/`:
 
+- `releases/v1.2/` adds Hindi and Hinglish to English captions, Apply to all,
+  Save as my template (with motion, and a default for new projects), a Best
+  export quality, Instagram-size export for small videos, and smoother
+  scaling when a video is resized.
+- `releases/v1.2/` adds Apply to all, Save as my template, Hindi and Hinglish
+  to English captions, and Best-quality, Instagram-size export.
 - `releases/v1.1/` adds 20 templates (Cinematic, Professional and Creative),
   re-tuned colours on the first 27, the new home page, the How it works page,
   the safe-zone guide and an edge-contrast control.

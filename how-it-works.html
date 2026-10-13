@@ -253,7 +253,7 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule);
             </div></li>
             <li><div class="step-body">
               <h3>It writes the words</h3>
-              <p>Whisper, OpenAI's open speech-recognition model, turns the speech into words, each with its own start and end time. The laptop uses the Small model, the phone uses Base.</p>
+              <p>Whisper, OpenAI's open speech-recognition model, turns the speech into words, each with its own start and end time. The laptop uses the Small model, the phone uses Base. Speak Hindi or Hinglish and tick <b>Write the captions in English</b>: Whisper translates as it listens, so the English words still follow your voice.</p>
               <p class="tech">Run by Transformers.js and ONNX Runtime Web. The model downloads once from Hugging Face, then stays in the browser.</p>
             </div></li>
             <li><div class="step-body">
@@ -270,12 +270,12 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule);
             </div></li>
             <li><div class="step-body">
               <h3>You style and fix <span class="you">You</span></h3>
-              <p>A template is a set of fonts, colours and motion drawn over the video live. Change the template or its colour preset, fix any word in the Transcript, move a stand-out, and turn on the Reels safe-zone guide.</p>
+              <p>A template is a set of fonts, colours and motion drawn over the video live. Change the template or its colour preset, fix any word in the Transcript, move a stand-out, and turn on the Reels safe-zone guide. Changed one caption? <b>Apply to all</b> copies it to every caption. Like the result? <b>Save as my template</b> and new projects start with it.</p>
             </div></li>
             <li><div class="step-body">
               <h3>It exports</h3>
               <p>Frame by frame, the video and the caption layer are drawn together, encoded as H.264 and packed into an MP4. Your original audio is copied across untouched.</p>
-              <p class="tech">WebCodecs does the encoding, Mediabunny builds the MP4. Very High quality on the laptop, High on the phone.</p>
+              <p class="tech">WebCodecs does the encoding, Mediabunny builds the MP4. Quality is Best by default on both laptop and phone, about 30 Mbps at 1080p. A video smaller than 1080 × 1920 is exported at Instagram size, so the captions stay sharp.</p>
             </div></li>
           </ol>
         </div>
@@ -323,6 +323,7 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule);
           <tr><th scope="row">The laptop copy</th><td class="where"><span class="path">R:\Cowork OS\Content Creation OS\caption-editor</span></td><td>Works without internet once the Whisper model has downloaded on that laptop.</td></tr>
           <tr><th scope="row">Your projects</th><td class="where">Inside the browser you made them in (its built-in database)</td><td>Safari on the iPhone and Chrome on the laptop each keep their own list. Clearing the browser's website data deletes them.</td></tr>
           <tr><th scope="row">The video inside a project</th><td class="where">The same browser storage</td><td>To save space, older videos can be cleared. If that happens, the app asks you to pick the video again and keeps all your edits.</td></tr>
+          <tr><th scope="row">Your own templates</th><td class="where">The browser you saved them in</td><td>Laptop and phone keep separate lists. A project backup carries its template with it.</td></tr>
           <tr><th scope="row">Backups</th><td class="where">A <span class="path">.tscaps</span> file, wherever you save it</td><td>Save a backup from the editor, then Open a backup on the other device. Drive is a good home for them.</td></tr>
           <tr><th scope="row">Finished videos</th><td class="where">Downloads on the laptop, Files on the iPhone</td><td>Your original video is never changed.</td></tr>
           <tr><th scope="row">The Whisper model</th><td class="where">Browser storage, after the first download</td><td>Small (laptop) is a bigger download than Base (phone).</td></tr>
@@ -352,6 +353,10 @@ footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule);
       <li><h3>Stand-out words, picked for you</h3><p>The punch word, names and numbers get the second font and colour. Tap any word to change it.</p></li>
       <li><h3>Captions that break where you breathe</h3><p>Cuts land on sentence ends, commas and pauses, and the words split evenly instead of leaving one alone.</p></li>
       <li><h3>Motion with a job</h3><p>Typewriter, word-by-word reveal, underline sweeps, stamps and paper cut-outs, each timed to the word being said.</p></li>
+      <li><h3>Apply to all</h3><p>Change one caption, word or emoji, then apply it to every caption, every stand-out word or every word in one tap.</p></li>
+      <li><h3>Your own templates</h3><p>Save colours, fonts, sizes, position and motion as a template of your own, and start new projects with it.</p></li>
+      <li><h3>Hindi and Hinglish to English</h3><p>Speak Hindi or Hinglish and get English captions timed to your voice.</p></li>
+      <li><h3>Best quality export</h3><p>About 30 Mbps at 1080p, and small videos are exported at Instagram size so the text stays sharp.</p></li>
       <li><h3>Simple controls</h3><p>Text colour, stand-out colour, font and size, and edge contrast to make text stand off bright footage.</p></li>
       <li><h3>Reels safe-zone guide</h3><p>The phone button in the editor shows where Instagram's caption, buttons and profile line cover the video.</p></li>
       <li><h3>Transcript editing</h3><p>Fix any word Whisper got wrong in the Transcript tab; the timing stays with it.</p></li>
