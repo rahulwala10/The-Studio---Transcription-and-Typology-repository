@@ -1,5 +1,13 @@
 # The Studio Captions
 
+> **Retired on 14 October 2026.** The Studio Captions is now part of
+> **The Studio - Captions and Sound** (https://rahulwala10.github.io/captions-and-sound/),
+> which does everything this tool did, plus sound. On an iPhone, use
+> **The Studio - iPhone** (https://rahulwala10.github.io/iphone/).
+> The old address forwards there. This repository stays as a backup of the code
+> and releases.
+
+
 **Dynamic captions for Reels, by Rahul Wala.**
 
 Open it: **https://rahulwala10.github.io/The-Studio---Transcription-and-Typology-repository/**
